@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "averta cy w10";
+    box-sizing: border-box;
+}
+
+* ::selection {
+    color: #ffff;
+    background-color: #000;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+      background-color:white;
+}
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+
+#nav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    padding: 18px 50px;
+}
+
+#nav img{
+    width:100px;
+}
+
+#nav #right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#nav a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    font-size: 1.4vw;
+    letter-spacing: 0px;
+}
+
+#nav i {
+    margin-top: 3px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+#home #homemain{
+    width: 100%;
+    padding: 15vw 15vw;
+}
+
+#homemain h1{
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    font-size: 1.34vw;
+}
+
+#homemain .headings h1:hover{
+    color: #000;
+}
+
+.headings{
+    display: flex;
+    gap: 40px;
+}
+
+#homemain .headings h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-size: 7vw;
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+#homelast{
+    margin-top: -6vw;
+    padding: 5vw 15vw;
+    
+}
+
+#homelast p{
+    width: 65%;
+    font-size: 1.6vw;
+    font-weight: 400;
+    letter-spacing: -.05vw;
+    line-height:1.3;
+}
+#homelast p::selection {
+    color: #ffff;
+    background-color: #000;
+}
+
+#featured {
+    padding: 10vw 15vw;
+}
+
+.fheading>h1{
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.fheading>h1:nth-child(2){
+    font-size:4.2vw;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+.fheading>h1:nth-child(2):hover{
+    color: #000;
+}
+
+#fimages{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height: 100vh;
+    margin-top: 5vw;
+}
+
+#fleft{
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+}
+
+.fleftele{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height:inherit;
+}
+
+.fleftele h1{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+
+.fleftele h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+
+}
+
+.fleftele h4{
+    opacity: .5;
+
+}
+
+#fright{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    width: 45%;
+    height:inherit;
+}
+
+#fright .images{
+    width: 90%;
+    height: 90%;
+}
+
+#fright .images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btndiv button{
+    padding: 1.2vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-top: 4vw;
+}
+
+#dev{
+      width: 100%;
+      padding: 5vw 15vw;
+}
+
+#dev h1{
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+} 
+
+#dev p{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -0.7px;
+    width: 60%;
+}
+
+#slides{
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide{
+    width: 28%;
+}
+.slide .img{
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    border-radius: 10px;
+    /* background-color: yellow; */
+}
+
+.slide .img img{
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+}
+
+.slide .tag{
+    border-radius: 100px;
+    width: fit-content;
+    padding: 10px 22px;
+    background-color: #f7f7f7;
+    margin: 20px 0;
+}
+
+.slide h3{
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
+#footer{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 7vw;
+    padding-bottom: 3vw;
+    width: 100%;
+    height: 60%;
+    background-color: #000;
+    margin-top: 7vw;
+}
+#footer>h1{
+    color: white;
+    font-size:4.5vw;
+}
+#footer h1 span{
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px; 
+    text-underline-offset: 13px;
+}
+
+#footdt {
+    display: flex;
+    align-items: center;
+    padding-top: 13vw;
+    justify-content: space-between;
+}
+#footdt h1{
+    color: white;
+    font-size:2vw;
+}
+.footlink a{
+    font-weight: 500;
+    font-size:1.2 vw;
+    margin-left: 9vw;
+    text-decoration: none;
+    color: white;
+}
